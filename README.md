@@ -27,9 +27,9 @@
 Fitur Utama:
 - Tanda tangan digital menggunakan SignaturePad
 - Cetak Dokumen : Formulir Permintaan, BAST
-Notifikasi Realtime Setiap ada tindakan penting (perubahan status permintaan, akun, dll.)
-Reset Password via Email
-Notifikasi Penting via Email (Permintaan diterima, ditolak, permintaan selesai, dll.)
+- Notifikasi Realtime Setiap ada tindakan penting (perubahan status permintaan, akun, dll.)
+- Reset Password via Email
+- Notifikasi Penting via Email (Permintaan diterima, ditolak, permintaan selesai, dll.)
 
 
 Specs:
