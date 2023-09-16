@@ -1,0 +1,372 @@
+html {
+    font-family: Calibri;
+}
+
+.tabel tr td {
+    text-align: center;
+    font-size: 13px;
+}
+
+.container,
+.kotak-comment {
+    border: solid 1px black;
+}
+
+.header {
+    background-color: lightgray;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-data-requestor {
+    margin: 0;
+}
+
+.header-table-data-requestor {
+    margin: 0;
+    padding: 10px;
+}
+
+.body-table-data-requestor {
+    margin: 0;
+    padding: 10px;
+}
+
+.tabel_ttd_requestor {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    display: grid;
+    justify-items: end;
+}
+
+#judul_dokumen {
+    text-align: center;
+    font-weight: bold;
+}
+
+#informasi_dokumen {
+    text-align: left;
+    padding-left: 5px;
+}
+
+#garis_bawah {
+    border-bottom: 1px solid black;
+}
+
+.kolom_nama {
+    width: 18%;
+}
+
+.kolom_isi_nama {
+    width: 25%;
+}
+
+
+/*UNITBAGIAN & JABATAN*/
+
+.kolom_kedua {
+    padding-left: 2rem;
+    width: 5rem;
+}
+
+.kolom_aset {
+    width: 35%;
+}
+
+#garis_bawah_noaset {
+    border-bottom: 1px solid black;
+    width: 80%;
+    display: block;
+}
+
+.titikdua {
+    width: 1%;
+}
+
+.nama_tanda_tangan {
+    width: 8rem;
+    display: block;
+}
+
+.kolom_tanda_tangan {
+    display: flex;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.kotak-ttd,
+.kotak-ttd-manager {
+    border: solid 1px black;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+}
+
+.kotak-ttd-manager {
+    margin-right: 10rem;
+    margin-bottom: 0.5rem;
+}
+
+.gambar_ttd {
+    width: 100px;
+    margin-bottom: -8px;
+}
+
+.header-kolom-admin {
+    font-weight: bold;
+    text-align: left;
+}
+
+.kolom_check_software {
+    text-align: center;
+    margin-left: -15px;
+    margin-right: -5px;
+    display: block;
+}
+
+.kolom_software {
+    width: 25%;
+}
+
+.kolom_version {
+    width: 10%;
+}
+
+.kolom_notes,
+.kolom_problem {
+    display: table;
+}
+
+.kolom_notes {
+    margin-left: 2rem;
+    width: 85%;
+    margin-right: 2rem;
+}
+
+.kolom_problem {
+    display: block !important;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.jarak-kiri {
+    padding-left: 15px;
+}
+
+.konten {
+    width: 100%;
+}
+
+.kolom1 {
+    width: 40%;
+    float: left;
+}
+
+.kolom2 {
+    width: 60%;
+    float: right;
+}
+
+
+/* untuk ttd admin dan request owner */
+
+.pembungkus,
+.pembungkus-manager {
+    margin: 10px;
+}
+
+.pembungkus-manager {
+    display: contents;
+}
+
+.tabel_ttd_request_owner,
+.tabel_ttd_admin {
+    display: inline-block;
+}
+
+.tabel_ttd_admin {
+    float: right;
+}
+
+.kolom_ttd_admin {
+    display: flex;
+}
+
+.kotak_ttd_request_owner {
+    border: solid 1px black;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+}
+
+.judul_ttd_request_owner {
+    margin-left: 5px;
+    text-align: left;
+}
+
+.gambar_ttd_request_owner {
+    width: 100px;
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+#garis_bawah_request_owner {
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-left: 0.5rem;
+}
+
+#garis_bawah_request_owner_kosong {
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-left: 0.5rem;
+    margin-top: 25px;
+}
+
+
+/* Untuk kolom otorisasi */
+
+.table_otorisasi {
+    padding-right: 1rem;
+    display: grid;
+    padding-left: 15rem;
+}
+
+.kotak_otorisasi {
+    border: solid 1px black;
+}
+
+.tanggal-otorisasi {
+    display: inline-flex;
+}
+
+.tgl-otorisasi {
+    width: 2rem;
+    text-align: center;
+}
+
+.tahun-otorisasi {
+    width: 5rem;
+    text-align: center;
+}
+
+.jarak-table-otorisasi {
+    width: 7rem;
+}
+
+
+/* UNTUK MENGATUR FORM PERMINTAAN HARDWARE */
+
+#status_hardware {
+    width: 5rem;
+    text-align: center;
+}
+
+.checkbox_hardware {
+    padding-right: 2rem;
+}
+
+.kolom_check_hardware {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.kolom_komponen {
+    padding-left: 1rem;
+}
+
+.kolom_hardware {
+    width: 20%;
+    padding-left: 0.5rem;
+}
+
+.header_kolom_problem {
+    padding: 1rem;
+}
+
+.kotak-comment {
+    height: 5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+}
+
+.judul-comment {
+    font-size: 10px;
+}
+
+.status-dual_control {
+    padding-left: 0.6rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.checkbox-dual_control {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.checkbox-status {
+    padding-right: 1rem;
+}
+
+.control-signature {
+    margin: 0;
+    font-size: 8px;
+}
+
+.control-name {
+    border-top: 1px solid;
+    width: 14rem;
+}
+
+.control-executor {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.label-titikdua {
+    padding-right: 10px;
+}
+
+.kolom-dual_control,
+.kolom-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kolom-date {
+    align-items: center;
+    font-weight: bold;
+}
+
+.lebar-kotak-comment {
+    height: 6rem;
+}
+
+.isi-comment {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+/* Cetak ke media A4 */
+
+@media print {
+    @page {
+        size: A4;
+        margin: 7mm;
+    }
+    html,
+    body {
+        width: 210mm;
+        height: 297mm;
+        /* margin: 20mm 20mm 20mm 20mm; */
+    }
+}

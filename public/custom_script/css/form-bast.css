@@ -1,0 +1,155 @@
+     /* CSS untuk tampilan surat */
+     
+     html {
+         padding-bottom: 10rem;
+         padding-top: 1rem;
+         padding-left: 2rem;
+         padding-right: 2rem;
+     }
+     
+     body {
+         font-family: Arial, sans-serif;
+         margin: 20px;
+     }
+     
+     table {
+         width: 100%;
+         border-collapse: collapse;
+     }
+     
+     p {
+         text-align: justify;
+         line-height: 1.2;
+     }
+     
+     .header {
+         /* text-align: center; */
+         margin-bottom: 20px;
+         border-bottom: 2px solid;
+     }
+     
+     .header img {
+         height: 80px;
+     }
+     
+     .title {
+         text-align: center;
+         text-decoration: underline;
+         margin-bottom: 20px;
+     }
+     
+     .subtitle {
+         margin-bottom: 10px;
+     }
+     
+     .subtitle span {
+         font-weight: bold;
+     }
+     
+     .table-data-barang {
+         margin-bottom: 30px;
+     }
+     
+     .table-data-barang th,
+     .table-data-barang td {
+         padding: 8px;
+         text-align: left;
+         border: 1px solid #ddd;
+     }
+     
+     #nama_barang,
+     #kode_barang,
+     #jumlah_barang {
+         width: 20%;
+     }
+     
+     #keperluan {
+         width: 40%;
+     }
+     
+     .signature-container {
+         display: flex;
+         justify-content: space-between;
+     }
+     
+     .yang_menyerahkan .yang_menerima {
+         width: 40%;
+         margin-bottom: 10px;
+     }
+     
+     .yang_menerima p {
+         text-align: right !important;
+     }
+     
+     #alamat {
+         line-height: 0.1;
+         font-size: 10px;
+     }
+     
+     #nomor_bast {
+         text-align: center !important;
+         margin-top: -15px;
+     }
+     
+     .tabel-data-pegawai {
+         margin-left: 50px;
+         border: hidden !important;
+     }
+     
+     #kolom-1 {
+         width: 20%;
+     }
+     
+     #kolom-2 {
+         width: 2%;
+     }
+     
+     .tanggal_ttd {
+         margin-top: 50px;
+         text-align: right;
+     }
+     
+     .text-indent {
+         text-indent: 50px;
+     }
+     
+     .kotak-ttd {
+         /* border: solid 1px black; */
+         width: 250px;
+         height: 60px;
+         text-align: center;
+     }
+     
+     .isi-ttd {
+         border-bottom: 1px solid;
+         margin-bottom: 5px;
+     }
+     
+     .gambar_ttd {
+         width: 250px;
+         margin-bottom: -8px;
+     }
+     /* css untuk tampilan form laporan  */
+     
+     .total-software {
+         text-align: center !important;
+     }
+     
+     .belum-divalidasi {
+         width: 10rem;
+         margin-top: -3rem;
+     }
+     /* Cetak ke media A4 */
+     
+     @media print {
+         @page {
+             size: A4;
+             margin: 7mm;
+         }
+         html,
+         body {
+             width: 210mm;
+             /* height: 297mm; */
+             margin: 5mm 20mm 20mm 5mm;
+         }
+     }

@@ -1,0 +1,91 @@
+/* CSS */
+
+.overlay,
+.view_cetak_bast_barang_keluar {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.iframe-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 90vh;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    /* padding: 2rem; */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#tutup_bast_masuk,
+#tutup_bast_keluar,
+#tombol-print,
+.tombol-print,
+.tutup-form-software {
+    position: absolute;
+    top: 10px;
+}
+
+#tutup_bast_masuk,
+#tutup_bast_keluar,
+.tutup-form-software {
+    right: 30px;
+}
+
+#tombol-print,
+.tombol-print {
+    right: 2rem;
+    margin-right: 2rem;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* untuk menu side bar  */
+
+.custom-span-menu {
+    font-size: 10px !important;
+}
+
+
+/* untuk sub menu side bar  */
+
+.custom-span {
+    font-size: 12px;
+}
+
+#peringatan_barang {
+    padding-right: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.tombol-cetak-software {
+    left: 1rem;
+    position: absolute;
+}
+
+#kode_barang,
+#ram,
+#penyimpanan,
+#prosesor {
+    text-transform: uppercase;
+}
+
+#nama_barang {
+    text-transform: capitalize;
+}
+
+i {
+    pointer-events: none;
+}
