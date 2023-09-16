@@ -25,21 +25,18 @@
  - Kelola data master dan data transaksi keseluruhan data di sistem.
  
 Fitur Utama:
-Tanda tangan digital menggunakan SignaturePad
-Cetak Dokumen 
-- Formulir Permintaan
-- BAST
+- Tanda tangan digital menggunakan SignaturePad
+- Cetak Dokumen : Formulir Permintaan, BAST
 Notifikasi Realtime Setiap ada tindakan penting (perubahan status permintaan, akun, dll.)
 Reset Password via Email
 Notifikasi Penting via Email (Permintaan diterima, ditolak, permintaan selesai, dll.)
 
 
 Specs:
-PHP 8.1.17
-Laravel 10
+- PHP 8.1.17
+- Laravel 10
 
-Account for Login:
-on seeder
+Account for Login: check on seeder
 
-Rename .env_example to .env
-Setup email (app password) sebelum menggunakan fitur notifikasi email SMTP
+- Rename .env_example to .env
+- Setup email (app password) sebelum menggunakan fitur notifikasi email SMTP
